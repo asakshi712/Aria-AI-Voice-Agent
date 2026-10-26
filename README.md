@@ -48,7 +48,7 @@ cp .env.example .env
 npm run dev
 ```
 
-Open the Vite URL printed in the terminal (normally `http://localhost:5173`). The client proxies `/api` requests to Express on port 3001.
+Open the [deployed demo](https://asakshi712.github.io/Aria-AI-Voice-Agent/). For local development, open the Vite URL printed in the terminal. The client proxies `/api` requests to Express on port 3001.
 
 Without an API key, the demo runs in policy-safe deterministic fallback mode. For a stronger evaluation experience, configure a valid API key. Never commit `.env`.
 
