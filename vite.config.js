@@ -5,6 +5,6 @@ export default defineConfig({
   plugins: [react()],
   server: {
     watch: { ignored: ["**/.vs/**", "**/node_modules/**"] },
-    proxy: { "/api": "http://localhost:3001" }
+    proxy: { "/api": "https://github.com/asakshi712/Aria-AI-Voice-Agent" }
   }
 });
